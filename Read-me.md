@@ -4,7 +4,9 @@ The scripts here aim to extract information from Wunderground.com. Every row in 
 
 This process could have been faster with the use of requests or beautifulsoup. However, that was not possible as wunderground.com used a mechanism to publish data using javascript and not html. If one visited a historical data webpage, they will notice that html text saying "No Summary, No Records" is loaded first before javascript kicks in after a second to load the data. Any request to the url using beautiful soup returns "No summary, No Results" as the data.
 
-Motorcrash.csv is the file that contains all the accidents.
+Motorcrash.csv is the file that contains all the accidents. It has been removed as it exceeds 100MB. It can be downloaded from:
+https://data.ny.gov/Transportation/Motor-Vehicle-Crashes-Case-Information-Three-Year-/e8ky-4vqe
+
 Filtered_mvc.csv contains data records of municipalities where more than 10000 accidents occured.
 
 Weather_municipality1.csv,Weather_municipality3.csv,Weather_municipality2.csv was produced after the extraction process.
